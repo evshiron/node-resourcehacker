@@ -1,0 +1,24 @@
+{
+  "name": "node-resourcehacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evshiron/node-resourcehacker.git"
+  },
+  "author": "evshiron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evshiron/node-resourcehacker/issues"
+  },
+  "homepage": "https://github.com/evshiron/node-resourcehacker#readme",
+  "dependencies": {
+    "decompress-zip": "^0.3.0",
+    "nugget": "^2.0.0"
+  }
+}
